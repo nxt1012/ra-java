@@ -1,0 +1,1 @@
+# Rikkei Academy Exercise Code Collection
