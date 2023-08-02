@@ -1,0 +1,13 @@
+.course-list {
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: larger;
+    max-width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    text-transform: uppercase;
+}
