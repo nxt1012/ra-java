@@ -7,7 +7,15 @@
 - Các file DemoJSX/DemoComponent chứa các ví dụ và bài giảng của ngày hôm nay
 - Các bài tập từ 01 đến 03 lưu trong thư mục \components\Exercises
 - Các bài tập từ 04 đến 07 lưu trong từng thư mục riêng với tên phù hợp với đề bài (dạng: ss02-xxx) (do có chứa cả css/img và các thành phần khác nữa)
-  2023.08.02
+
+2023.08.02
+
 - Phần bài tập không được thống nhất nên tạm thời không làm
 - Bài tập 01-02 quá dễ và đã trùng lặp với phần thực hành
 - Bài tập 02-06 đa phần chưa đủ kiến thức để làm (đòi hỏi phần xử lý form và two-way data binding)
+
+2023.08.03
+- ss03-ex-02-show-input viết bằng class component, cách thức thực hiện như sau:
++ Chia nhỏ component (App sẽ gọi Form)
++ Ở App sẽ khai báo hàm để cập nhật giá trị vào state, xử lý việc hiện state ra thẻ p, truyền props xuống component con là Form
++ Ở Form sẽ khai báo state để lưu giữ giá trị, cần xử lý sự kiện onChange để lấy dữ liệu đầu vào từ người dùng, nhận props từ component cha là App
